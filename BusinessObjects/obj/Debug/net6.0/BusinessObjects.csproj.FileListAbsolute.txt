@@ -1,0 +1,14 @@
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.AssemblyReference.cache
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfo.cs
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\bin\Debug\net6.0\BusinessObjects.deps.json
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\bin\Debug\net6.0\BusinessObjects.runtimeconfig.json
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\bin\Debug\net6.0\BusinessObjects.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\bin\Debug\net6.0\BusinessObjects.pdb
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\BusinessObjects.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\refint\BusinessObjects.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\BusinessObjects.pdb
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\BusinessObjects.genruntimeconfig.cache
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\BusinessObjects\obj\Debug\net6.0\ref\BusinessObjects.dll

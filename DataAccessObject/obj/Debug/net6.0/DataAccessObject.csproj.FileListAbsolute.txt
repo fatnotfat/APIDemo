@@ -1,0 +1,15 @@
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\bin\Debug\net6.0\DataAccessObject.deps.json
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\bin\Debug\net6.0\DataAccessObject.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\bin\Debug\net6.0\DataAccessObject.pdb
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.AssemblyReference.cache
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\DataAccessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfoInputs.cache
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfo.cs
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CoreCompileInputs.cache
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\DataAccessObject.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\refint\DataAccessObject.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\DataAccessObject.pdb
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\ref\DataAccessObject.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\bin\Debug\net6.0\BusinessObjects.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\bin\Debug\net6.0\BusinessObjects.pdb
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CopyComplete
