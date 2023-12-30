@@ -2322,11 +2322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\Repositories\\Repositories.csproj",
+      "projectPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\Repositories\\obj\\",
+      "outputPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2348,8 +2348,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\DataAccessObject\\DataAccessObject.csproj": {
-              "projectPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\DataAccessObject\\DataAccessObject.csproj"
+            "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\DataAccessObject\\DataAccessObject.csproj": {
+              "projectPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\DataAccessObject\\DataAccessObject.csproj"
             }
           }
         }

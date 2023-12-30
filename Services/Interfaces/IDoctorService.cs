@@ -10,5 +10,6 @@ namespace Services.Interfaces
     public interface IDoctorService
     {
         public Task<IEnumerable<Doctor>> GetAllDoctorsAsync();
+        public Task<Doctor> GetDoctorByAccountId(Guid accountId);
     }
 }

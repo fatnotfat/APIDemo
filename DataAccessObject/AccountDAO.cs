@@ -26,8 +26,8 @@ namespace DataAccessObject
         public async Task<Account> CheckAccountAsync(string email, string password)
         {
             var account = await _dbContext.Accounts
-                .FirstOrDefaultAsync(a => a.Email.Equals(email.Trim(), StringComparison.OrdinalIgnoreCase) 
-                && a.Password.Equals(password.Trim(), StringComparison.OrdinalIgnoreCase));
+                .FirstOrDefaultAsync(a => a.Email.Equals(email.Trim()) 
+                && a.Password.Equals(password.Trim()));
             return account;
         }
 

@@ -260,3 +260,4 @@ D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\Health360Scheduler\bin\Debug\ne
 D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\Health360Scheduler\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\Health360Scheduler\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\Health360Scheduler\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\FPTU\Semester8\PRN231\Labs\Health360Scheduler\Health360Scheduler\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

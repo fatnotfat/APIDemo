@@ -14,20 +14,29 @@ using Newtonsoft.Json;
 using static System.Net.Mime.MediaTypeNames;
 using System.Security.Principal;
 using Health360Scheduler.Mappers;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace Health360Scheduler.Controllers.AccountsController
 {
-    [Route("api/[controller]")]
+    [Authorize(Roles = "Admin")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class AccountsController : ControllerBase
     {
+        public IConfiguration _configuration;
         private readonly IAccountService _accountService;
         private readonly IMapper _mapper;
 
-        public AccountsController(IAccountService accountService, IMapper mapper)
+        public AccountsController(IAccountService accountService, IMapper mapper, IConfiguration config)
         {
             _accountService = accountService;
             _mapper = mapper;
+            _configuration = config;
         }
 
         // GET: api/Accounts
@@ -68,6 +77,42 @@ namespace Health360Scheduler.Controllers.AccountsController
             await _accountService.RegistAccountAsync(data);
 
             return Ok("user " + data.AccountId + " was created");
+        }
+
+        [HttpPost]
+        [Route("/api/v1/auth/login")]
+        [AllowAnonymous]
+        public async Task<IActionResult> CheckLogin(string email, string password)
+        {
+            if (!String.IsNullOrEmpty(email) && !String.IsNullOrEmpty(password))
+            {
+                var data = await _accountService.CheckLoginAsync(email, password);
+                if (data != null)
+                {
+                    var account = _mapper.Map<AccountDTO>(data);
+                    var claims = new[] {
+                        new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
+                        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                        new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
+                        new Claim(ClaimTypes.Role, account.Role.ToString()),
+                        new Claim("Email", account.Email),
+                        new Claim("Role", account.Role.ToString())};
+                    //create claims details based on the user information
+
+                    var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+                    var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                    var token = new JwtSecurityToken(
+                        _configuration["Jwt:Issuer"],
+                        _configuration["Jwt:Audience"],
+                        claims,
+                        expires: DateTime.UtcNow.AddMinutes(60),
+                        signingCredentials: signIn);
+
+                    return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+                }
+                return BadRequest("Invalid credentials");
+            }
+            return BadRequest();
         }
 
 

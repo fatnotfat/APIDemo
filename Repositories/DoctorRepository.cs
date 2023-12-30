@@ -16,6 +16,12 @@ namespace Repositories
         {
             doctorDAO = new DoctorsDAO();
         }
+
+        public async Task<Doctor> GetDoctorByAccountId(Guid accountId)
+        {
+            return await doctorDAO.GetDoctorByAccountId(accountId);
+        }
+
         public async Task<IEnumerable<Doctor>> GetDoctorsAsync()
         {
             return await doctorDAO.GetAllAsync();

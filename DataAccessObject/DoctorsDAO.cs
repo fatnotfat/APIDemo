@@ -26,5 +26,15 @@ namespace DataAccessObject
         {
 
         }
+
+        public async Task<Doctor> GetDoctorByAccountId(Guid accountId)
+        {
+            Doctor doctor = null;
+            if (String.IsNullOrEmpty(accountId.ToString().Trim())!)
+            {
+                doctor = await _dbContext.Doctors.SingleOrDefaultAsync(acc => acc.AccountId.Equals(accountId));
+            }
+            return doctor;
+        }
     }
 }

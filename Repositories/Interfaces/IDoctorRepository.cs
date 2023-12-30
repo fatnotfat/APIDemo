@@ -10,5 +10,6 @@ namespace Repositories.Interfaces
     public interface IDoctorRepository
     {
         public Task<IEnumerable<Doctor>> GetDoctorsAsync();
+        public Task<Doctor> GetDoctorByAccountId(Guid accountId);
     }
 }

@@ -2304,11 +2304,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\DataAccessObject\\DataAccessObject.csproj",
+      "projectUniqueName": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\DataAccessObject\\DataAccessObject.csproj",
       "projectName": "DataAccessObject",
-      "projectPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\DataAccessObject\\DataAccessObject.csproj",
+      "projectPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\DataAccessObject\\DataAccessObject.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\DataAccessObject\\obj\\",
+      "outputPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\DataAccessObject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2330,8 +2330,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Health360Scheduler\\BusinessObjects\\BusinessObjects.csproj"
+            "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "D:\\FPTU\\Semester8\\PRN231\\Labs\\Demo\\BusinessObjects\\BusinessObjects.csproj"
             }
           }
         }

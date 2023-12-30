@@ -20,5 +20,10 @@ namespace Services
         {
             return await _doctorRepository.GetDoctorsAsync();
         }
+
+        public async Task<Doctor> GetDoctorByAccountId(Guid accountId)
+        {
+            return await _doctorRepository.GetDoctorByAccountId(accountId);
+        }
     }
 }

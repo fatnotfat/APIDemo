@@ -11,10 +11,12 @@ using AutoMapper;
 using Health360Scheduler.DataTransferObjects;
 using Services;
 using Health360Scheduler.Mappers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Health360Scheduler.Controllers.DoctorsController
 {
-    [Route("api/[controller]")]
+    [Authorize]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class DoctorsController : ControllerBase
     {

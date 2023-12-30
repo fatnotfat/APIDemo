@@ -27,9 +27,17 @@ namespace Health360Scheduler.Mappers
             )
             .ForMember(
                 dest => dest.Status,
-                opt => opt.MapFrom(src => src.Role)
+                opt => opt.MapFrom(src => src.Status)
             );
-            CreateMap<Account, AccountDTO>();
+            CreateMap<Account, AccountDTO>()
+            .ForMember(
+                dest => dest.Role,
+                opt => opt.MapFrom(src => src.Role)
+            )
+            .ForMember(
+                dest => dest.Status,
+                opt => opt.MapFrom(src => src.Status)
+            );
         }
     }
 }
